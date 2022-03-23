@@ -13,7 +13,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=5
 .then(data => {
   var tempValue = data['main']['temp'];
   tempValue = tempValue-273.15;
-  tempValue = tempValue.toFixed(0);
+  tempValue = tempValue.toFixed(0) + ` °C`;
   var nameValue = data['name'];
   var descValue = data['weather'][0]['description'];
 

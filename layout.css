@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background: #f8f8f8;
+  background: #64b1d4;
 }
 
 .input {
@@ -16,12 +16,14 @@ body {
 
 input[type="submit"] {
   padding: 15px 30px;
-  background: #e7e7e7;
+  background: #397e9e;
   border: none;
   border-radius: 1px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  border-radius: 10px;
+  color: white;
 }
 
 .input input[type="text"] {
@@ -34,14 +36,18 @@ input[type="submit"] {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .card {
   width: 50%;
-  background: #e7e7e7;
+  background: #397e9e;
   height: 40vh;
   margin: 50px auto;
   border-radius: 2px;
+  padding-top: 50px;
+  border-radius: 20px;
+  color: white;
 }
 
 .close {
@@ -60,4 +66,16 @@ input[type="submit"] {
   text-align: center;
   margin: 40px 0;
   font-size: 20px;
+}
+
+#myName {
+  display: inline-block;
+  background-color: #e7e7e7;
+
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
 }
